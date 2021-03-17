@@ -31,5 +31,5 @@ https://youtu.be/kzTHu1YpPQ0
 
 ## Creacion de la APK
 
-Para Crear la Apk nos vasamos en el asistente de Android Studio, este nos facilitara crear la Key y firmar la aplicacion.
+Para Crear la Apk nos vasamos en el asistente de Android Studio, este nos facilitara crear la Key y firmar la aplicacion, estos elementos los encontraremos dentro de la carpeta "Apk y Key" que se encuentra dentro del repositorio.
 
