@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "471229552818",
+    "firebase_url": "https://proyecto-final-ahorcado-default-rtdb.firebaseio.com",
+    "project_id": "proyecto-final-ahorcado",
+    "storage_bucket": "proyecto-final-ahorcado.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471229552818:android:78f657a4bd47b70128d1ab",
+        "android_client_info": {
+          "package_name": "com.example.proyecto_final_ahorcado"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471229552818-hom61id37iv5q0441v2c2bofpb27mt8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFU0txT4c9jwI8NNFvWIweno0e5RUoXiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471229552818-hom61id37iv5q0441v2c2bofpb27mt8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

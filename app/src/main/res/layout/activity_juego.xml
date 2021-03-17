@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".JuegoActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#957DAD"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            app:srcCompat="@drawable/gallows" />
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="108dp"
+            android:paddingTop="23dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/head" />
+
+        <ImageView
+            android:id="@+id/body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="120dp"
+            android:paddingTop="53dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/body" />
+        <ImageView
+            android:id="@+id/armLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="100dp"
+            android:paddingTop="60dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/arm_left" />
+
+        <ImageView
+            android:id="@+id/armRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="120dp"
+            android:paddingTop="60dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/arm_right" />
+
+
+
+        <ImageView
+            android:id="@+id/legLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="101dp"
+            android:paddingTop="90dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/leg_left" />
+
+        <ImageView
+            android:id="@+id/legRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="121dp"
+            android:paddingTop="90dp"
+            android:visibility="visible"
+            app:srcCompat="@drawable/leg_right" />
+        >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" />
+
+    <GridView
+        android:id="@+id/letters"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/black"
+        android:horizontalSpacing="5dp"
+        android:numColumns="7"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="112dp"
+        android:onClick="EndGame"
+        android:text="Finalizar Juego"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
